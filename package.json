@@ -60,7 +60,10 @@
 		}
 	},
 	"lint-staged": {
-		"*": "prettier --write"
+		"*": [
+			"eslint",
+			"prettier --write"
+		]
 	},
 	"browserslist": {
 		"production": [

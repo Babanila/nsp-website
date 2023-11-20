@@ -8,6 +8,7 @@ import './App.css';
 function App({ onLocaleChange }: { onLocaleChange: React.Dispatch<React.SetStateAction<string>> }) {
 	const { formatMessage, locale } = useIntl();
 	const baba = 'baba';
+	const baba2 = 'baba2';
 
 	return (
 		<div className='App'>
