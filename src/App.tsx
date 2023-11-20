@@ -48,6 +48,10 @@ function App({ onLocaleChange }: { onLocaleChange: React.Dispatch<React.SetState
 	);
 }
 
+
+
+
+
 function LocalizationWrapper() {
 	const defaultLocale = navigator.language ?? 'en';
 	const [locale, setLocale] = React.useState(defaultLocale);
@@ -66,3 +70,6 @@ function LocalizationWrapper() {
 }
 
 export default LocalizationWrapper;
+
+
+
