@@ -1,0 +1,5 @@
+{
+  "errors.bug.text": "Oops! Something went wrong.",
+  "errors.generic.text": "Something went wrong. Please reload this page and try again.",
+  "message.greetings.text": "Hello, {name}"
+}

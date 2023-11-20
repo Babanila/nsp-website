@@ -1,0 +1,5 @@
+{
+	"errors.bug.text": "Huch! Etwas ist schief gelaufen.",
+	"errors.generic.text": "Es ist ein Fehler aufgetreten. Bitte laden Sie diese Seite neu und versuchen Sie es erneut.",
+	"message.greetings.text": "Hallo, {name}"
+}

@@ -2,3 +2,10 @@ node_modules
 # Ignore artifacts:
 build
 coverage
+dist
+.github/workflows/build.yaml
+.yarn
+out/
+__generated
+messages/**.json
+locales/

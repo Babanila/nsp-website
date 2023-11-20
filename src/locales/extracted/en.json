@@ -1,0 +1,14 @@
+{
+  "errors.bug.text": {
+    "description": "Bug error message shown when something failed because there's a bug",
+    "message": "Oops! Something went wrong."
+  },
+  "errors.generic.text": {
+    "description": "General error message shown when something failed out of our control",
+    "message": "Something went wrong. Please reload this page and try again."
+  },
+  "message.greetings.text": {
+    "description": "Greetings using ones name.",
+    "message": "Hello, {name}"
+  }
+}
