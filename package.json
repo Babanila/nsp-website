@@ -8,8 +8,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
-    "i18n:compile": "formatjs compile 'locales/extracted/en.json' --format crowdin --out-file locales/messages/en.json",
-    "i18n:extract": "formatjs extract 'src/**/*.ts' --ignore '**/*.d.ts' --format crowdin --out-file locales/extracted/en.json",
+    "i18n:compile": "formatjs compile 'src/locales/extracted/en.json' --format crowdin --out-file src/locales/messages/en.json",
+    "i18n:extract": "formatjs extract 'src/**/*.ts' --ignore '**/*.d.ts' --format crowdin --out-file src/locales/extracted/en.json",
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
   },
