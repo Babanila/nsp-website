@@ -8,3 +8,4 @@ dist
 out/
 __generated
 messages/**.json
+locale/messages.ts
