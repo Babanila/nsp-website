@@ -1,7 +1,7 @@
 {
 	"name": "nsp-website",
 	"version": "0.1.0",
-	"private": false,
+	"private": true,
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
@@ -11,7 +11,8 @@
 		"i18n:compile": "formatjs compile 'src/locales/extracted/en.json' --format crowdin --out-file src/locales/messages/en.json",
 		"i18n:extract": "formatjs extract 'src/**/*.ts' --ignore '**/*.d.ts' --format crowdin --out-file src/locales/extracted/en.json",
 		"lint": "eslint .",
-		"lint:fix": "eslint --fix ."
+		"lint:fix": "eslint --fix .",
+		"postinstall": "husky install"
 	},
 	"dependencies": {
 		"@formatjs/intl": "^2.9.9",
