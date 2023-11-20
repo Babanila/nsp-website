@@ -12,7 +12,7 @@
 		"i18n:extract": "formatjs extract 'src/**/*.ts' --ignore '**/*.d.ts' --format crowdin --out-file src/locales/extracted/en.json",
 		"lint": "eslint .",
 		"lint:fix": "eslint --fix .",
-		"postinstall": "husky install"
+		"prepare": "husky install"
 	},
 	"dependencies": {
 		"@formatjs/intl": "^2.9.9",
