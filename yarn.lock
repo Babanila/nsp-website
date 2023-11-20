@@ -1360,7 +1360,7 @@
   dependencies:
     tslib "^2.4.0"
 
-"@formatjs/intl@2.9.9":
+"@formatjs/intl@2.9.9", "@formatjs/intl@^2.9.9":
   version "2.9.9"
   resolved "https://registry.yarnpkg.com/@formatjs/intl/-/intl-2.9.9.tgz#866629b565e20dd7490f9e77ee41a00748913e8f"
   integrity sha512-JI3CNgL2Zdg5lv9ncT2sYKqbAj2RGrCbdzaCckIxMPxn4QuHuOVvYUGmBAXVusBmfG/0sxLmMrnwnBioz+QKdA==
