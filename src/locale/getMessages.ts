@@ -4,10 +4,10 @@ import messagesDe from '../locales/messages/de.json';
 export type Locale = 'en' | 'de';
 
 export const getMessages = (locale: Locale) => {
-  switch (locale) {
-    case 'de':
-      return messagesDe;
-    default:
-      return messagesEn;
-  }
+	switch (locale) {
+		case 'de':
+			return messagesDe;
+		default:
+			return messagesEn;
+	}
 };
