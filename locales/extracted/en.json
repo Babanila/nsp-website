@@ -1,10 +1,10 @@
 {
   "errors.bug.text": {
-    "description": "Error message from Verification Screen and Login Form: Shown when something failed because there's a bug",
+    "description": "Bug error message shown when something failed because there's a bug",
     "message": "Oops! Something went wrong."
   },
   "errors.generic.text": {
-    "description": "Error message from the Verification Screen and Login Form: Shown when something failed out of our control",
+    "description": "General error message shown when something failed out of our control",
     "message": "Something went wrong. Please reload this page and try again."
   },
   "message.greetings.text": {

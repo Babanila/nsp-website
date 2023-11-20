@@ -1,5 +1,5 @@
-import messagesEn from '../locales/messages/en.json';
-import messagesDe from '../locales/messages/de.json';
+import messagesEn from '../../locales/messages/en.json';
+import messagesDe from '../../locales/messages/de.json';
 
 export type Locale = 'en' | 'de';
 
