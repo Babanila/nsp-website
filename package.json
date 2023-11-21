@@ -44,7 +44,7 @@
 		"eslint-plugin-promise": "^6.0.0",
 		"eslint-plugin-react": "^7.33.2",
 		"eslint-plugin-react-hooks": "^4.6.0",
-		"husky": "^8.0.3",
+		"husky": "^8.0.0",
 		"lint-staged": "^15.1.0",
 		"prettier": "^3.1.0"
 	},
@@ -60,9 +60,9 @@
 		}
 	},
 	"lint-staged": {
-		"*": [
-			"eslint",
-			"prettier --write"
+		"*.{js,jsx,ts,tsx,css,postcss,json,md}": [
+			"eslint --fix",
+			"prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
 		]
 	},
 	"browserslist": {
