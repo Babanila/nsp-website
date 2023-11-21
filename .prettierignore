@@ -3,8 +3,9 @@ node_modules
 build
 coverage
 dist
-.github/workflows/build.yaml
 .yarn
+*.lock
+*.log
 out/
 __generated
 messages/**.json
