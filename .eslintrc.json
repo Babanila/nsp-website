@@ -18,6 +18,20 @@
 		"sourceType": "module"
 	},
 	"plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
+	"globals": {
+		"deepEqual": true,
+		"describe": true,
+		"document": true,
+		"it": true,
+		"expect": true,
+		"Infusion": true,
+		"jQuery": true,
+		"module": true,
+		"test": true,
+		"window": true,
+		"sinon": true,
+		"console": true
+	},
 	"rules": {
 		"react/react-in-jsx-scope": "off",
 		"camelcase": "error",
@@ -35,6 +49,12 @@
 		"no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }]
 	},
 	"settings": {
+		"react": {
+			"createClass": "createReactClass", // Regex for Component Factory to use, default to "createReactClass"
+			"pragma": "React", // Pragma to use, default to "React"
+			"version": "detect", // React version. "detect" automatically picks the version you have installed.
+			"flowVersion": "0.53" // Flow version
+		},
 		"import/resolver": {
 			"typescript": {}
 		}
